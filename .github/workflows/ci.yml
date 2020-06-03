@@ -10,7 +10,6 @@ jobs:
     
     steps:
       - uses: actions/checkout@v2
-
       - name: Add deploy_key
         env:
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
